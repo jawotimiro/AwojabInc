@@ -1,0 +1,37 @@
+html{
+    background: url("webpractice.jpg") no-repeat;
+    background-size: cover;
+    }
+h1, h2, h3{color: red;
+}
+
+.grid-container {
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+
+}
+.retail{
+  float:left;
+  width:20%;
+ background-color: green;
+  border:1px solid;
+  box-sizing: border-box;
+  padding-top: 10px;
+  justify-content:space-between;
+}
+.retail>h3{
+  text-align: center;
+}
+.signup{padding-top: 100px;
+}
+.retails{
+  float:left;
+  width:20%;
+ background-color: yellow;
+  box-sizing: border-box;
+  padding-top: 10px;
+  justify-content:space-around;
+}
+.retails>h3{
+  text-align: center;
